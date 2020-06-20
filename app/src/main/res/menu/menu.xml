@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_one"
+        android:id="@+id/btn_scan"
         android:icon="@drawable/scan_foreground"
         app:showAsAction="always"
         android:title="Item One"/>
