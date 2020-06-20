@@ -3,6 +3,7 @@ package com.example.lanisters
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -52,6 +53,10 @@ class MainActivity : AppCompatActivity() {
             return true
         }
         if (id == R.id.action_two) {
+            val intent = Intent(this , generator :: class.java)
+            startActivity(intent)
+            Log.i( "Activity open" , "The generator activity opened")
+
             Toast.makeText(this, "Item Two Clicked", Toast.LENGTH_LONG).show()
             return true
         }

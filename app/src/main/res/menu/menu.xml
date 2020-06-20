@@ -9,7 +9,7 @@
         android:title="Item One"/>
     <item
         android:id="@+id/action_two"
-        android:title="Item Two"/>
+        android:title="generator"/>
     <item
         android:id="@+id/action_three"
         android:title="Item Three"/>
